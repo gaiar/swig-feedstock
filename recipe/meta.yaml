@@ -14,12 +14,11 @@ source:
 
 build:
   number: 2
-  skip: true  # [not py27]
   detect_binary_files_with_prefix: true  # [unix]
 
 requirements:
   build:
-    - toolchain
+    - toolchain3-rpi3
     - pcre  # [unix]
     - python  # [unix]
   run:
